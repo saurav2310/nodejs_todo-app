@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "main": "server.js",
   "type": "module",
+  "engines": {
+    "node": ">=19.7.0"
+  },
   "scripts": {
     "start": "set NODE_ENV=Production&& node server.js",
     "dev": "set NODE_ENV=Development&& nodemon server.js"
